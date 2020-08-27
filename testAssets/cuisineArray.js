@@ -1,0 +1,6 @@
+module.exports = [
+    {food: '@americanfood', word: 'Top rated American restaurants near me'}, {food: '@asianfood', word: 'Top rated Asian restaurants near me'}, {food: '@bbq', word: 'Top rated BBQ restaurants near me'}, {food: '@barfood', word: 'Top rated Bar Food restaurants near me'}, {food: '@beverages', word: 'Top rated Beverages restaurants near me'},
+    {food: '@burger', word: 'Top rated Burger restaurants near me'}, {food: '@chinese', word: 'Top rated Chinese restaurants near me'}, {food: '@coffeetea', word: 'Top rated Coffee and Tea restaurants near me'}, {food: '@desserts', word: 'Top rated Desserts restaurants near me'}, {food: '@diner', word: 'Top rated Diners near me'}, 
+    {food: '@italian', word: 'Top rated Italian restaurants near me'}, {food: '@japanese', word: 'Top rated Japanese restaurants near me'}, {food: '@mexican', word: 'Top rated Mexican restaurants near me'}, {food: '@pizza', word: 'Top rated Pizza restaurants near me'}, {food: '@sandwich', word: 'Top rated Sandwich restaurants near me'},
+    {food: '@seafood', word: 'Top rated Seafood restaurants near me'}, {food: '@steak', word: 'Top rated Steak restaurants near me'}, {food: '@sushi', word: 'Top rated Sushi restaurants near me'}, {food: '@thai', word: 'Top rated Thai restaurants near me'}, {food: '@vegetarian', word: 'Top rated Vegetarian restaurants near me'},
+]

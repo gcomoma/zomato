@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="1"
+            tests="1">
+
+  <testsuite name="zomatoAutomation"
+    errors="2" failures="1" hostname="" id="" package="zomatoAutomation" skipped="9"
+    tests="1" time="33.48" timestamp="">
+  
+    <testcase name="Test 1: Search multiple restaurants/foods in Salt Lake City" classname="zomatoAutomation" time="33.48" assertions="1">  <failure message="Expected element &lt;h1&gt; text to contain: [0;33m&#34;Fried Chicken&#34;[0m - element was not found - expected [0;32m&#34;contain &#39;Fried Chicken&#39;&#34;[0m but got: [0;31m&#34;not present&#34;[0m[0;90m (5137ms)[0m">    at Page.search5Items (/Users/gregoryomoma/Desktop/zomatoAuto/pageObjects/zomatoPageObjects.js:8:21)
+    at Object.Test 1: Search multiple restaurants/foods in Salt Lake City (/Users/gregoryomoma/Desktop/zomatoAuto/tests/zomatoAutomation.js:16:20)</failure>
+
+    
+      <failure message="    at Page.search5Items (/Users/gregoryomoma/Desktop/zomatoAuto/pageObjects/zomatoPageObjects.js:8:21)">    at Object.Test 1: Search multiple restaurants/foods in Salt Lake City (/Users/gregoryomoma/Desktop/zomatoAuto/tests/zomatoAutomation.js:16:20)</failure>
+      <error message="Error while running &#34;element&#34; command: Expected element &lt;h1&gt; text to contain: [0;33m&#34;Fried Chicken&#34;[0m - element was not found - expected [0;32m&#34;contain &#39;Fried Chicken&#39;&#34;[0m but got: [0;31m&#34;not present&#34;[0m[0;90m (5137ms)[0m" type="error">    at Object.Test 1: Search multiple restaurants/foods in Salt Lake City (/Users/gregoryomoma/Desktop/zomatoAuto/tests/zomatoAutomation.js:16:20)</error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  NoSuchElementError: An error occurred while running .setValue() command on &lt;Element [name=@itemSearchInput]&gt;: undefined; undefined
+   {&#34;sessionId&#34;:&#34;943308cce61ea9d4cbd0b61c56e81df8&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
+[0;31m  NoSuchElementError: An error occurred while running .click() command on &lt;Element [name=@searchButton]&gt;: undefined; undefined
+   {&#34;sessionId&#34;:&#34;943308cce61ea9d4cbd0b61c56e81df8&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Test 2:  Request link to application with email" classname="zomatoAutomation">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Test 3: Request a link to the application through mobile phone" classname="zomatoAutomation">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Test: Popular restaurants near me" classname="zomatoAutomation">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Test: View all green button on category pages" classname="zomatoAutomation">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Test: &#34;Download from the app store&#34; buttons at bottom of home page" classname="zomatoAutomation">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="locality test" classname="zomatoAutomation">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="cuisines test" classname="zomatoAutomation">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Test: Social media links" classname="zomatoAutomation">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Collection search" classname="zomatoAutomation">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
